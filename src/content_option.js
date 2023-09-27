@@ -5,7 +5,7 @@ const meta = {
 };
 
 const introdata = {
-    title: "Hi, I'm {Your Name}",
+    title: "Hi, I'm Juan Monsalve",
     animated: {
         first: "Technologist",
         second: "Visionary",
@@ -137,13 +137,13 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "test@test.com",
+    YOUR_EMAIL: "juan.sho.alt@gmail.com",
     description: "Looking forward to hearing from you!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "SERVICE_ID",
-    YOUR_TEMPLATE_ID: "TEMPLATE_ID",
-    YOUR_USER_ID: "USER_ID (PUBLIC_KEY)",
+    YOUR_SERVICE_ID: "service_s7pv0ue",
+    YOUR_TEMPLATE_ID: "template_u851rfv",
+    YOUR_USER_ID: "0eRRi4chqlaFzgdUX",
 };
 
 const socialprofils = {
