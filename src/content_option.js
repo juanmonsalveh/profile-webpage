@@ -1,42 +1,56 @@
-const logotext = "{Initials Here}";
+const logotext = "JM";
 const meta = {
-    title: "{Your name}",
-    description: "I'm {Your name}, a technologist and cybersecurity enthuist.",
+    title: "Juan Monsalve",
+    description: "I'm Juan, a technologist and software enthusiast.",
 };
 
 const introdata = {
     title: "Hi, I'm Juan Monsalve",
     animated: {
-        first: "Technologist",
-        second: "Visionary",
-        third: "Ethical Hacker",
-        fourth: "Programmer",
-        fifth: "Malware Developer",
-        sixth: "Analyst",
+        first: "Engineer",
+        second: "Enthusiast",
+        third: "Consultant",
+        fourth: "Analyst",
+        fifth: "Developer",
         // add more if you'd like but make sure to update /src/pages/home/index.js Line 29
     },
-    description: "Dedicated technology enthusiast with an insatiable curiosity for unraveling the complexities of our digital world.",
-    your_img_url: "https://i.ibb.co/wRjcnGL/me.jpg",
+    description: ">  A dedicated software enthusiast, who takes pleasure in crafting code and bringing ideas to life." +
+        " \n >  Also engaged in the journey of learning.",
+    your_img_url: "https://models.readyplayer.me/651abf1a48faf03b9e3cb0a4.png",
+    // your_img_url: "https://i.ibb.co/wRjcnGL/me.jpg",
 };
 
 const dataabout = {
     title: "Who am I?",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    aboutme: "A Software Engineer who loves learning, developing, and generating impact and value on what I do. " +
+        "I am always eager and open for continuous improvement and development.\n" +
+        "Besides that I love to try new things in different fields and domains. " +
+        "In my free time I love listening to music, gaming with friends, art and sports.",
 };
 const worktimeline = [{
-        jobtitle: "Example 1",
-        where: "Google",
-        date: "2023",
+        jobtitle: "Software Consultant",
+        where: "WAES",
+        date: "07 2022 - present",
     },
     {
-        jobtitle: "Example 2",
-        where: "Micosoft",
-        date: "2022",
+        jobtitle: "Software Development Analyst",
+        where: "Mercado Libre",
+        date: "01 2021 - 08 2022",
     },
     {
-        jobtitle: "Example 3",
-        where: "Meta",
-        date: "2021",
+        jobtitle: "Software Engineer",
+        where: "Easy Solutions",
+        date: "11 2017 - 12 2020",
+    },
+    {
+        jobtitle: "Team Lead & Software Developer",
+        where: "Universidad Nacional de Colombia",
+        date: "10 2014 - 11 2017",
+    },
+    {
+        jobtitle: "Software Engineer",
+        where: "ITC Technological Solution SAS",
+        date: "03 2013 - 10 2014",
     },
 ];
 
@@ -148,7 +162,7 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com/",
-    linkedin: "https://linkedin.com/",
+    linkedin: "https://www.linkedin.com/in/juan-monsalve/",
 };
 export {
     meta,

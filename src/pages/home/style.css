@@ -84,6 +84,7 @@ section {
     font-size: 30px;
     margin-bottom: 50px;
     font-weight: 700;
+    display: flex;
 }
 
 .intro_sec .text h3 {
@@ -96,6 +97,10 @@ section {
     background-position: center;
     min-height: 700px;
     position: relative;
+}
+
+.intro_description{
+    white-space: pre-line;
 }
 
 .ac_btn {
