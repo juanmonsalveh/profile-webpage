@@ -20,12 +20,16 @@ variables:
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
+  # Artifact directory
+  directory: react-azure-demo
+
+
 stages:
 - stage: Build
   displayName: Build stage
   jobs:
   - job: Build
-    displayName: Build
+    displayName: Build & Deploy
     pool:
       vmImage: $(vmImageName)
 
