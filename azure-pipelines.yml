@@ -20,9 +20,6 @@ variables:
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
-  # Artifact directory
-  directory: react-azure-demo
-
 
 stages:
 - stage: Build
@@ -43,12 +40,11 @@ stages:
         yarn install
         yarn build
       displayName: 'npm install, build and test'
-      workingDirectory: $(directory)
 
     - task: CopyFiles@2
       displayName: 'Copy files'
       inputs:
-        sourceFolder: '$(directory)/build' 
+        sourceFolder: 'build' 
         Contents: '**/*'
         TargetFolder: '$(Build.ArtifactStagingDirectory)'
         cleanTargetFolder: true
