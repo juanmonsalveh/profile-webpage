@@ -4,6 +4,10 @@ const meta = {
     description: "I'm Juan, a technologist and software enthusiast.",
 };
 
+const avatarProperties = {
+    modelSrc: "https://models.readyplayer.me/651abf1a48faf03b9e3cb0a4.glb",
+    headMovement: "true",
+}
 const introdata = {
     title: "Hi, I'm Juan Monsalve",
     animated: {
@@ -17,6 +21,7 @@ const introdata = {
     description: ">  A dedicated software enthusiast, who takes pleasure in crafting code and bringing ideas to life." +
         " \n >  Also engaged in the journey of learning.",
     your_img_url: "https://models.readyplayer.me/651abf1a48faf03b9e3cb0a4.png",
+    your_model_url: "https://models.readyplayer.me/651abf1a48faf03b9e3cb0a4.glb",
     // your_img_url: "https://i.ibb.co/wRjcnGL/me.jpg",
 };
 
@@ -171,6 +176,7 @@ export {
     worktimeline,
     skills,
     introdata,
+    avatarProperties,
     contactConfig,
     socialprofils,
     logotext,
