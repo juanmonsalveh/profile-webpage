@@ -69,3 +69,4 @@ stages:
         appName: '$(webAppName)'
         appType: 'webApp'
         package: '$(System.ArtifactsDirectory)/$(Build.BuildId).zip'
+        startUpCommand: 'yarn start'
