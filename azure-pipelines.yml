@@ -49,18 +49,18 @@ stages:
         TargetFolder: '$(Build.ArtifactStagingDirectory)'
         cleanTargetFolder: true
 
-    - task: ArchiveFiles@2
-      displayName: 'Archive files'
-      inputs:
-        rootFolderOrFile: '$(Build.ArtifactStagingDirectory)'
-        includeRootFolder: false
-        archiveType: zip
-        archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
-        replaceExistingArchive: true
-    - task: PublishBuildArtifacts@1
-      displayName: 'Publish Build Artifacts'
-      inputs: 
-        pathtoPublish: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+    # - task: ArchiveFiles@2
+    #   displayName: 'Archive files'
+    #   inputs:
+    #     rootFolderOrFile: '$(Build.ArtifactStagingDirectory)'
+    #     includeRootFolder: false
+    #     archiveType: zip
+    #     archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+    #     replaceExistingArchive: true
+    # - task: PublishBuildArtifacts@1
+    #   displayName: 'Publish Build Artifacts'
+    #   inputs: 
+    #     pathtoPublish: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
 
     - task: AzureWebApp@1
       displayName: 'Deploy to App Service'
