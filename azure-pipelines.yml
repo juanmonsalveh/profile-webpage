@@ -57,10 +57,10 @@ stages:
     #     archiveType: zip
     #     archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
     #     replaceExistingArchive: true
-    # - task: PublishBuildArtifacts@1
-    #   displayName: 'Publish Build Artifacts'
-    #   inputs: 
-    #     pathtoPublish: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+    - task: PublishBuildArtifacts@1
+      displayName: 'Publish Build Artifacts'
+      inputs: 
+        pathtoPublish: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
 
     - task: AzureWebApp@1
       displayName: 'Deploy to App Service'
