@@ -67,6 +67,6 @@ stages:
       inputs:
         azureSubscription: '$(azureSubscription)'
         appName: '$(webAppName)'
-        appType: 'webApp'
+        appType: 'webAppLinux'
         package: '$(System.ArtifactsDirectory)/$(Build.BuildId).zip'
-        deploymentMethod: 'runFromPackage'
+        deploymentMethod: 'zipDeploy'
