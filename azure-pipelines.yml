@@ -71,3 +71,4 @@ stages:
         appType: 'webAppLinux'
         package: '$(System.ArtifactsDirectory)/$(Build.BuildId).zip'
         deploymentMethod: 'zipDeploy'
+        startUpCommand: 'pm2 serve /home/site/wwwroot --no-daemon'
