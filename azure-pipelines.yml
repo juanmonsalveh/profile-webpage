@@ -49,6 +49,7 @@ stages:
     #     TargetFolder: '$(Build.ArtifactStagingDirectory)'
     #     cleanTargetFolder: true
 
+# Compress files into .7z, .tar.gz, or .zip.
     - task: ArchiveFiles@2
       displayName: 'Archive files'
       inputs:
