@@ -9,7 +9,7 @@ const avatarProperties = {
     headMovement: "true",
 }
 const introdata = {
-    title: "Hi, I'm Juan Monsalve",
+    title: "Hi, I'm Jose Monsalve",
     animated: {
         first: "Engineer",
         second: "Enthusiast",
